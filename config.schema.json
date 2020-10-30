@@ -6,10 +6,16 @@
     "type": "object",
     "properties": {
       "name": {
-        "title": "Name",
+        "title": "Username",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "Meross Cloud Username"
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true,
+        "default": "Meross Cloud Password"
       }
     }
   }
